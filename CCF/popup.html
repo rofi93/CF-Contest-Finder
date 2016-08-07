@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Codeforces Contest Finder</title>
+    <style>
+      body {
+        min-width: 150px;
+		min-height: 100px;
+		max-height: 120px;
+		max-width: 200px; 
+        overflow-x: hidden; 
+        font-family: Arial, sans-serif; 
+        font-size: 12px;
+      }
+      #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 200px;
+      }
+    </style>
+   <!-- <script src="popup.js"></script> --> 
+   
+  </head>
+  <body>
+     <form id="contest">
+	 Round: <input type="text" id="round"> <br>
+	 Div:   <input type="text" id="div"> <br> <br> 
+
+		<input type="submit" id="done" value="Done"> <br>
+		<!--  -->
+		
+	 </form>
+	 <script src="popup.js"></script>
+  </body>
+</html>
+
