@@ -1,6 +1,6 @@
 # CF-Contest-Finder
 
-It's simple extension to find the specific in Codeforces by round number and division.
+It's a simple chrome extension to find the specific contest in Codeforces by round number and division.
 The extension is not uploaded chrome store. If you want to use this extension follow the instrutions.
 
 1. Download the repo as zip file and extract.
